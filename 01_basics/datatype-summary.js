@@ -17,7 +17,7 @@ const anotherId = Symbol("145")
 
 console.log(id === anotherId)
 
-const bigNumber = 748747478484848481548
+const bigNumber = 748747478484848481548n
 
 // Refernce Or (Non Primtive)
 
@@ -37,4 +37,9 @@ const myFunction = function(){
     console.log("Hey function");
 }
 
-console.log(typeof anotherId);
+console.log(typeof BigInt);
+
+
+let myVar = 1;
+myVar += 5;
+console.log(myVar);
